@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014 The Reddcoin developers
+// Copyright (c) 2014 The Stylecoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -77,7 +77,7 @@ static const int fHaveUPnP = false;
 inline int64 PastDrift(int64 nTime)   { return nTime - 2 * 60 * 60; } // up to 2 hours from the past
 inline int64 FutureDrift(int64 nTime) { return nTime + 2 * 60 * 60; } // up to 2 hours from the future
 
-// Reddcoin PoSV
+// Stylecoin PoSV
 static const int LAST_POW_BLOCK = 260800 - 1;
 static const int64 COIN_YEAR_REWARD = 5 * CENT; // 5% per year
 
@@ -117,7 +117,7 @@ extern int nScriptCheckThreads;
 extern bool fTxIndex;
 extern unsigned int nCoinCacheSize;
 
-// Reddcoin PoSV
+// Stylecoin PoSV
 extern std::set<std::pair<COutPoint, unsigned int> > setStakeSeen;
 extern unsigned int nStakeMinAge;
 extern unsigned int nStakeMaxAge;
@@ -211,7 +211,7 @@ bool VerifySignature(const CTransaction& txFrom, const CTransaction& txTo, unsig
 /** Abort with a message */
 bool AbortNode(const std::string &msg);
 
-// Reddcoin PoSV
+// Stylecoin PoSV
 int64 GetProofOfStakeReward(int64 nCoinAge, int64 nFees);
 int64 GetBlockValue(int nHeight, int64 nFees);
 unsigned int ComputeMinStake(unsigned int nBase, int64 nTime);

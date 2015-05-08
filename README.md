@@ -1,25 +1,25 @@
-Reddcoin integration/staging tree
+Stylecoin integration/staging tree
 ================================
 
-http://www.reddcoin.com
+http://www.stylecoin.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014 Reddcoin Developers
+Copyright (c) 2014 Stylecoin Developers
 
-What is Reddcoin?
+What is Stylecoin?
 ----------------
 
-On 2nd August 2014 at block 260,800 Reddcoin transitioned to its own original Proof-of-Stake-Velocity (PoSV)
+On 2nd August 2014 at block 260,800 Stylecoin transitioned to its own original Proof-of-Stake-Velocity (PoSV)
 algorithm which replaced Proof-of-Work (PoW).
  - 1 minute block target
  - just under 27 billion mined in PoW phase
  - 5% annual interest in PoSV phase
  - difficulty retarget: every block using Kimoto's gravity well
- - white paper: http://www.reddcoin.com/papers/PoSV.pdf
- - FAQs paper: http://www.reddcoin.com/papers/PoSV_FAQ.pdf
+ - white paper: http://www.stylecoin.com/papers/PoSV.pdf
+ - FAQs paper: http://www.stylecoin.com/papers/PoSV_FAQ.pdf
 
-Reddcoin first started in January 2014 as a variant of Litecoin using Scrypt as
+Stylecoin first started in January 2014 as a variant of Litecoin using Scrypt as
 the Proof-of-Work (PoW) hash algorithm.
  - 1 minute block target
  - 100,000 coins per block
@@ -28,12 +28,12 @@ the Proof-of-Work (PoW) hash algorithm.
  - difficulty retarget: every block using Kimoto's gravity well
 
 For more information, as well as an immediately useable, binary version of
-the Reddcoin wallet client, please visit http://www.reddcoin.com.
+the Stylecoin wallet client, please visit http://www.stylecoin.com.
 
 License
 -------
 
-Reddcoin is released under the terms of the MIT license. See `COPYING` for more
+Stylecoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -42,7 +42,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Reddcoin
+If it is a simple/trivial/non-controversial change, then one of the Stylecoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -55,8 +55,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/reddcoin-project/reddcoin/tags) are created
-regularly to indicate new official, stable release versions of Reddcoin.
+completely stable. [Tags](https://github.com/stylecoin-project/stylecoin/tags) are created
+regularly to indicate new official, stable release versions of Stylecoin.
 
 Testing
 -------
@@ -79,4 +79,4 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./reddcoin-qt_test
+    ./stylecoin-qt_test

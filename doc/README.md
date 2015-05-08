@@ -1,9 +1,9 @@
-Reddcoin
+Stylecoin
 ================
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014 Reddcoin Developers
+Copyright (c) 2014 Stylecoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -13,7 +13,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Reddcoin is a free open source peer-to-peer electronic cash system that is
+Stylecoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -21,17 +21,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run Reddcoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Stylecoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/reddcoin-qt (GUI, 32-bit)
-- bin/32/reddcoind (headless, 32-bit)
-- bin/64/reddcoin-qt (GUI, 64-bit)
-- bin/64/reddcoind (headless, 64-bit)
+- bin/32/stylecoin-qt (GUI, 32-bit)
+- bin/32/stylecoind (headless, 32-bit)
+- bin/64/stylecoin-qt (GUI, 64-bit)
+- bin/64/stylecoind (headless, 64-bit)
 
-See the documentation at the [Reddcoin website](http://www.reddcoin.com)
+See the documentation at the [Stylecoin website](http://www.stylecoin.com)
 for help and more information.
 
 

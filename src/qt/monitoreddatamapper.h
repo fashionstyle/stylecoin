@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef MONITOREDDATAMAPPER_H
-#define MONITOREDDATAMAPPER_H
+#ifndef MONITOSTYLEATAMAPPER_H
+#define MONITOSTYLEATAMAPPER_H
 
 #include <QDataWidgetMapper>
 
@@ -31,4 +31,4 @@ signals:
     void viewModified();
 };
 
-#endif // MONITOREDDATAMAPPER_H
+#endif // MONITOSTYLEATAMAPPER_H

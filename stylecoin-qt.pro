@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = reddcoin-qt
-macx:TARGET = "Reddcoin-Qt"
+TARGET = stylecoin-qt
+macx:TARGET = "Stylecoin-Qt"
 VERSION = 1.4.1.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -187,7 +187,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/transactionrecord.h \
     src/qt/guiconstants.h \
     src/qt/optionsmodel.h \
-    src/qt/monitoreddatamapper.h \
+    src/qt/monitostyleatamapper.h \
     src/qt/transactiondesc.h \
     src/qt/transactiondescdialog.h \
     src/qt/bitcoinamountfield.h \
@@ -259,7 +259,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/guiutil.cpp \
     src/qt/transactionrecord.cpp \
     src/qt/optionsmodel.cpp \
-    src/qt/monitoreddatamapper.cpp \
+    src/qt/monitostyleatamapper.cpp \
     src/qt/transactiondesc.cpp \
     src/qt/transactiondescdialog.cpp \
     src/qt/bitcoinstrings.cpp \
@@ -325,7 +325,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = reddcoin-qt_test
+TARGET = stylecoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }
@@ -425,7 +425,7 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit -framework CoreServices
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/reddcoin.icns
+macx:ICON = src/qt/res/icons/stylecoin.icns
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread
